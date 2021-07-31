@@ -269,7 +269,7 @@ repeat wait() until game.Players.LocalPlayer
 
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "Woot Reach Loaded!";
+	Title = "nlzpx's Reach Loaded!";
 	Text  = "Press X to view controls";
 	Icon = "";
 	Duration = 8;
@@ -345,7 +345,7 @@ local function getWhiteList()
 		end
 	end
 	return wl
-	-- WAIT WHAT EVOCUL WAS DOWN HERE TOO WHAT? WHO IS THIS MAD MAN????
+	-- RYAN WAS DOWN HERE
 end
 
 TextButton.MouseButton1Down:connect(function()
