@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/richie0866/MidiPlayer/main/package.lua
+loadstring:HttpGet("https://raw.githubusercontent.com/richie0866/MidiPlayer/main/package.lua")()
