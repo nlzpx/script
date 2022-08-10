@@ -1,0 +1,24 @@
+    spawn(function()
+   while wait() do 
+       pcall(function()
+          
+   for i,v in pairs(game.Players:GetChildren()) do
+   v.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-2)
+    end end) end end)
+   
+   
+   spawn(function()
+       while wait() do 
+           pcall(function()
+          
+              for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+               if v.name == "Knife" then
+                   v.Parent = game.Players.LocalPlayer.Character
+               end
+              end
+        game:GetService'VirtualUser':Button1Down(Vector2.new(0.9,0.9))
+              game:GetService'VirtualUser':Button1Up(Vector2.new(0.9,0.9))
+              game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = (CFrame.new(4001,1003,144))  
+
+end) end end)
+    
