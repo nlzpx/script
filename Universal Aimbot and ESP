@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ArcherDevelopment/LUNAESP/main/lunaesp.lua"))()
+loadstring(game:HttpGet("https://github.com/EdgeIY/infiniteyield/blob/master/source"))()
 wait (0) local Camera = workspace.CurrentCamera
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
