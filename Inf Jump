@@ -1,0 +1,16 @@
+--Notifies readiness
+game.StarterGui:SetCore("SendNotification", {Title="WeAreDevs.net"; Text="The WeAreDevs Infinite Jump exploit is ready!"; Duration=5;})
+
+--The actual infinite jump
+local plr = game:GetService('Players').LocalPlayer
+local m = plr:GetMouse()
+m.KeyDown:connect(function(k)
+	if _G.infinjump then
+		if k:byte() == 32 then
+		humanoid = game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass('Humanoid')
+		humanoid:ChangeState('Jumping')
+		wait()
+		humanoid:ChangeState('Seated')
+		end
+	end
+end)
