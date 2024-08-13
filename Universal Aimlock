@@ -1,5 +1,4 @@
-loadstring(game:HttpGet("https://github.com/EdgeIY/infiniteyield/blob/master/source"))()
-wait (0) local Camera = workspace.CurrentCamera
+local Camera = workspace.CurrentCamera
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
